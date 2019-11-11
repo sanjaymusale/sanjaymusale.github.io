@@ -1,0 +1,49 @@
+.project {
+  height: 200%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  transition: all 500ms ease-in-out;
+  &:hover {
+    transform: translateY(-50%);
+  }
+  .img_wrapper {
+    height: 50%;
+    width: 100%;
+    opacity: 0;
+  }
+  .details {
+    height: 50%;
+    padding: 2rem;
+    .title {
+      margin: 5px 0;
+      font-size: 2rem;
+    }
+    .para {
+      font-weight: lighter;
+      font-size: 1.8rem;
+    }
+  }
+}
+
+.project1 .img_wrapper {
+  background: url("../img/product/pj1.png") no-repeat center center;
+  background-size: cover;
+}
+
+.project2 .img_wrapper {
+  background: url("../img/product/pj2.png") no-repeat center center;
+  background-size: cover;
+}
+
+.project3 {
+  .img_wrapper {
+    background: url("../img/product/pj3.png") no-repeat center center;
+    background-size: cover;
+  }
+}
+
+.project4 .img_wrapper {
+  background: url("../img/product/pj4.png") no-repeat center center;
+  background-size: cover;
+}
